@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  datafold:
+    image: node:20.11.0
+    stdin_open: true
+    tty: true
+    container_name: datafold-container
+    volumes:
+      - type: bind
+        source: ../
+        target: /home/dev
+    networks:
+      - devnet
+
+networks:
+  devnet:
+    name: devnet

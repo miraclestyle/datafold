@@ -1,0 +1,26 @@
+{
+  "name": "datafold",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./app"
+  },
+  "bin": {
+    "datafold": "./app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miraclestyle/datafold.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miraclestyle/datafold/issues"
+  },
+  "homepage": "https://github.com/miraclestyle/datafold#readme",
+  "devDependencies": {
+    "prettier": "^3.2.4"
+  }
+}
